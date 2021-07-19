@@ -40,4 +40,7 @@ new Vue({
   router,
   store,
   render: h => h(App)
+  /** render: function(createElement) {
+    return createElement(App)
+  }*/
 })
